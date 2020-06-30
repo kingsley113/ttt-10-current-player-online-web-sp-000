@@ -1,8 +1,8 @@
 def turn_count(array)
   counter = 0
-  turn_count = 0
-  turn_count.each do |array|
-    if array != " "
+  board_array = array
+  board_array.each do |position|
+    if position != " "
       counter += 1
     end
   end
