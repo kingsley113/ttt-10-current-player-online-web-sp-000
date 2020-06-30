@@ -11,5 +11,5 @@ end
 
 
 def current_player(array)
-  if turn_count(array).even? ? current_player = "X" : current_player = "O"
+  turn_count(array).even? ? current_player = "X" : current_player = "O"
 end
