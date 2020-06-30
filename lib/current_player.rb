@@ -6,5 +6,5 @@ def turn_count(array)
       counter += 1
     end
   end
-  #turn_count = counter + 1
+  turn_count = counter
 end
